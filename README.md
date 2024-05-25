@@ -11,4 +11,11 @@
 ### 3.现在就可以使用了：在终端输入 dexlooker.py，拖入你的apk文件，将会自动为你反编译apk并打开JD-GUI查看jar文件
 
 **（喜欢的话给个star哦）**
-         
+
+
+# 要在mac打开的话需要
+```bash
+# 因为jd-gui 需要java_home直接能执行java, 参考 JD-GUI.app/Contents/MacOS/universalJavaApplicationStub.sh:515
+JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/b
+in
+```
